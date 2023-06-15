@@ -3,6 +3,7 @@
 var fs = require('fs')
 
 var dirName = process.argv[2]
+console.log(dirName)
 if (fs.existsSync("./" + dirName)) {
     return console.log('dir exists')
 } else {
